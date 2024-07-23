@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  test-algo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: test-ago:latest
+    container_name: test-algo
